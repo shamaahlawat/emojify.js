@@ -1,34 +1,30 @@
-emojify.js v.0.5
-==========
+# emojify.js
 
-A Javascript module to convert emoji keywords to images.
+The easy way to add Emoji support to your website
 
-The emoji keywords are as described by [emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com).
+## Getting Started
+Download the [production version][min] or the [development version][max].
 
-Go to this project's [GitHub pages](http://hassankhan.github.com/emojify.js) to see this module in action.
+[min]: https://raw.github.com/hassankhan/emojify.js/master/dist/emojify.min.js
+[max]: https://raw.github.com/hassankhan/emojify.js/master/dist/emojify.js
 
+In your web page:
 
-## Rationale
-I wanted [my blog](http://hassankhan.me) to display smileys nicely, decided to use Emojis because they look nice.
+```html
+<script src="jquery.js"></script>
+<script src="dist/emojify.min.js"></script>
+<script>
+jQuery(function($) {
+  $.awesome(); // "awesome"
+});
+</script>
+```
 
+## Documentation
+_(Coming soon)_
 
-## Usage
-Add the required lines to the ``<head>`` part of your HTML code:
+## Examples
+_(Coming soon)_
 
-    <link rel="stylesheet" type="text/css" href="emojify.css">
-    <script src="emojify.js"></script>
-
-Now type in an emoji keyword in your HTML, for example ``:smile:``
-Now run emojify using ``emojify.run()``.
-
-To exclude tags from being emojified, add ``no-emojify`` to their ``class`` attributes.
-
-
-## Dependencies
-This module depends on LESS, or at least requires you to compile the LESS source to CSS.
-
-
-## License
-Copyright 2012 Hassan Khan
-
-Licensed under the MIT License
+## Release History
+_(Nothing yet)_

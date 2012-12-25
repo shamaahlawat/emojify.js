@@ -1,0 +1,29 @@
+{
+  "name": "emojify",
+  "title": "emojify.js",
+  "description": "The easy way to add Emoji support to your website",
+  "version": "0.7.0",
+  "homepage": "https://github.com/hassankhan/emojify.js",
+  "author": {
+    "name": "Hassan Khan",
+    "email": "contact@hassankhan.me",
+    "url": "hassankhan.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hassankhan/emojify.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hassankhan/emojify.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hassankhan/emojify.js/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
